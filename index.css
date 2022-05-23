@@ -1,0 +1,68 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.main-container {
+    width: 100vw;
+}
+
+@keyframes was-selected {
+    from {
+        background-color: #98d1ce;
+        transform: scale(1);
+    }
+    to {
+        background-color: #98d1ce;
+        transform: scale(1.2);
+    }
+}
+
+.element {
+    border: gray dotted 1px;
+    font-size: 5px;
+    text-align: center;
+    height: 30px;
+    box-sizing: border-box;
+}
+.result {
+    font-size: 10px;
+    border: dotted gray 1px;
+}
+.consulted {
+    border: #98d1ce solid 1px;
+}
+
+.selected {
+    border: #868e91 solid 2px;
+    animation-name: was-selected;
+    animation-duration: 0.5s;
+    z-index: 10;
+    background-color: #98d1ce;
+    transform: scale(1.2);
+    background-color: #98d1ce;
+    transform: scale(1.2);
+}
+
+.element > p {
+    margin-bottom: 0px;
+}
+
+.height {
+    font-size: 10px;
+    font-style: bold;
+}
+
+.results {
+    text-align: center;
+}
+
+.disabled {
+    display: none;
+}
