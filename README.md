@@ -2,7 +2,7 @@
  
 This is my solution to the proposed challenge, it is a small web application written in html5 that will allow you to visualize graphically the execution of the Find Pairs Of Players algorithm.
 
-Inside the `index.js` file in the section denoted as `// Find Pairs Of Players Solution` you will find the algorithm solution as a generator function written in javascript.
+Inside the [index.js](https://github.com/juligarji/mach-eight/blob/main/index.js#L5) file in the section denoted as `// Find Pairs Of Players Solution` you will find the algorithm solution as a generator function written in javascript.
 
 ## How to run the project:
 You can find a deployed version here: (https://juligarji.github.io/mach-eight/) but you can also run the application by simply downloading the source code and opening the `index.html` file with your favorite browser.
